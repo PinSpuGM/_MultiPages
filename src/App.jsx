@@ -13,8 +13,8 @@ import './App.css'
 function App() {
   return (
     <div>
-      {/* <HashRouter> */}
-      <BrowserRouter>
+      <HashRouter>
+      {/* <BrowserRouter> */}
         <Routes>
           <Route element={<Layout />}>
             <Route path='/' element={<Home />} />
@@ -23,8 +23,8 @@ function App() {
             <Route path='/about' element={<About />} />
           </Route>
         </Routes>
-        </BrowserRouter>
-      {/* </HashRouter> */}
+        {/* </BrowserRouter> */}
+      </HashRouter>
     </div>
   )
 }
